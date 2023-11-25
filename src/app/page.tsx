@@ -1,3 +1,9 @@
 export default function Home() {
-    return <div className="text-blue text-heading-lg">Testing...</div>;
+    return (
+        <>
+            <header></header>
+            <main></main>
+            <footer></footer>
+        </>
+    );
 }

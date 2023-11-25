@@ -48,14 +48,16 @@ const config: Config = {
                     letterSpacing: "-0.5px",
                 },
             ],
+            "heading-xl": [
+                "4.5rem",
+                {
+                    lineHeight: "0.92",
+                    fontWeight: "700",
+                    letterSpacing: "-1px",
+                },
+            ],
         },
-        extend: {
-            backgroundImage: {
-                "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-                "gradient-conic":
-                    "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-            },
-        },
+        extend: {},
     },
     plugins: [],
 };
